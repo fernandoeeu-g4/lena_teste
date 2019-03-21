@@ -1,0 +1,3 @@
+mongoimport --host cluster0-shard-00-00-ysbfg.mongodb.net:27017 --db teste-integrador --type json --file /home/fernando/Documentos/projetos/busca/busca_mongo_db_receitas/receitas.json --jsonArray --authenticationDatabase admin --ssl --username fernandoeeu --password fernando123
+mongoimport --host 10.1.3.144:27017 --db test
+e-integrador --type json --file /home/fernando/Documentos/projetos/busca/busca_mongo_db_receitas/receitas.json --jsonArray
